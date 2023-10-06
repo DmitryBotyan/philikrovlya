@@ -1,0 +1,67 @@
+.overlay {
+    display: none;
+}
+
+.overlay_opened {
+    position: absolute;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.30);
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay__container {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 516px;
+    height: 100%;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.overlay__close {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background: none;
+    border: none;
+    background-image: url(../../images/Group\ 64-min.svg);
+    background-position: center;
+    background-size: contain;
+    top: 33px;
+    right: 26px;
+}
+
+.overlay__buttons {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+
+@media screen and (max-width:516px) {
+    .overlay__container {
+        width: 334px;
+        height: 100%;
+    }
+    .overlay__close {
+        width: 13px;
+        height: 13px;
+        top: 28px;
+        right: 23px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .overlay__container {
+        width: 100%;
+        height: 100%;
+    }
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body class="page">
+    <header class="header">
+        <button class="header__hamburger"></button>
+        <img src="./images/лого-min.svg" alt="Логотип" class="header__logo">
+        <div class="header__info">
+            <h3 class="header__info-title">График работы:</h3>
+            <p class="header__info-span">пн - пт с 9:00 до 17:00</p>
+            <p class="header__info-span">обед с 12:30 до 13:00</p>
+        </div>
+        <div class="header__info">
+            <p class="header__info-num">
+                <img src="./images/Vector-min.svg" alt="Телефон" class="header__phone-icon">
+                +7 (495) 983-30-40
+            </p>
+            <p class="header__info-num">
+                <img src="./images/Vector-min.svg" alt="Телефон" class="header__phone-icon">
+                +7 (495) 266-11-74
+            </p>
+        </div>
+        <div class="header__info">
+            <p class="header__email">
+                <img src="./images/почта-min.svg" alt="Почта" class="header__mail-icon">
+                info@filimarket.ru
+            </p>
+            <div class="header__buttons">
+                <button class="header__search"></button>
+                <button class="header__question">Задать вопрос</button>
+            </div>
+        </div>
+        <div class="header__info">
+            <div class="header__cart">
+                <div class="header__count-container"><span class="header__count">0</span></div>
+            </div>
+            <button class="header__compare"></button>
+            <form action="https://chatapp.online/wa-redirect/?phone=79687196397" target="_blank">
+                <button class="header__whatsapp"></button>
+            </form>
+        </div>
+    </header>
+    <section class="navigation">
+        <nav class="navigation__container">
+            <a class="navigation__item">
+                Каталог
+                <img src="./images/span.header__link-spoller-custom-min.svg" alt="Стрелка" class="navigation__arrow">
+            </a>
+            <p class="navigation__item">
+                О нас
+                <img src="./images/span.header__link-spoller-custom-min.svg" alt="Стрелка" class="navigation__arrow">
+            </p>
+            <p class="navigation__item">
+                Техническая документация
+            </p>
+            <p class="navigation__item">
+                Прайс-лист
+            </p>
+            <p class="navigation__item">
+                Новости
+            </p>
+            <p class="navigation__item">
+                Контакты
+            </p>
+        </nav>
+    </section>
+    <section class="overlay">
+        <div class="overlay__container">
+            <img src="./images/лого-min.svg" alt="Логотип" class="header__logo header__logo_overlay">
+            <button class="overlay__close"></button>
+            <div class="overlay__buttons">
+                <button class="header__search header__search_overlay"></button>
+                <button class="header__compare header__compare_overlay"></button>
+            </div>
+            <nav class="navigation__container navigation__container_overlay">
+                <a class="navigation__item navigation__item_overlay">
+                    Каталог
+                    <img src="./images/span.header__link-spoller-custom (1)-min.svg" alt="Стрелка" class="navigation__arrow">
+                </a>
+                <p class="navigation__item navigation__item_overlay">
+                    О нас
+                    <img src="./images/span.header__link-spoller-custom (1)-min.svg" alt="Стрелка" class="navigation__arrow">
+                </p>
+                <p class="navigation__item navigation__item_overlay">
+                    Техническая документация
+                </p>
+                <p class="navigation__item navigation__item_overlay">
+                    Прайс-лист
+                </p>
+                <p class="navigation__item navigation__item_overlay">
+                    Новости
+                </p>
+                <p class="navigation__item navigation__item_overlay">
+                    Контакты
+                </p>
+            </nav>
+            <p class="header__email header__email_overlay">
+                <img src="./images/почта-min.svg" alt="Почта" class="header__mail-icon header__mail-icon_overlay">
+                info@filimarket.ru
+            </p>
+            <div class="header__info header__info_overlay">
+                <h3 class="header__info-title">График работы:</h3>
+                <p class="header__info-span">пн - пт с 9:00 до 17:00</p>
+                <p class="header__info-span">обед с 12:30 до 13:00</p>
+            </div>
+            <div class="header__info header__info_overlay">
+                <p class="header__info-num">
+                    <img src="./images/Vector-min.svg" alt="Телефон" class="header__phone-icon">
+                    +7 (495) 983-30-40
+                </p>
+                <p class="header__info-num">
+                    <img src="./images/Vector-min.svg" alt="Телефон" class="header__phone-icon">
+                    +7 (495) 266-11-74
+                </p>
+            </div>
+            <div class="overlay__buttons">
+                <form action="https://chatapp.online/wa-redirect/?phone=79687196397" target="_blank">
+                    <button class="header__whatsapp header__whatsapp_overlay"></button>
+                </form>
+                <button class="header__question header__question_overlay">Задать вопрос</button>
+            </div>
+        </div>
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>
