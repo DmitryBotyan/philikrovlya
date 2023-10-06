@@ -287,6 +287,7 @@
         width: 150px;
         height: 40px;
         font-size: 12px;
+        margin-bottom: 20px;
     }
     .header__cart {
         width: 32px;
@@ -305,6 +306,9 @@
         width: 40px;
         height: 40px;
         background-size: 20px;
+    }
+    .header__whatsapp_overlay {
+        margin-bottom: 20px;
     }
     .header__compare {
         width: 32px;
@@ -404,6 +408,7 @@
         width: 40px;
         height: 40px;
         background-size: 20px;
+        margin-bottom: 20px;
     }
     .header__logo_overlay {
         margin: 24px 0 0 15px;
